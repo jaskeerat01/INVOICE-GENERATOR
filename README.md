@@ -32,6 +32,24 @@ Install the following Python libraries :
     CREATE DATABASE bill_generator_db;
     
     USE bill_generator_db;
+**•** Create table named ```products``` under database ```bill_generator_db``` :
+
+    CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    price INT
+    );
+**•** Enter the names of products in the table based on your choice:
+
+Example:
+
+    INSERT INTO products (id, name, price) VALUES
+    (1, 'PRODUCT A', 50),
+    (2, 'PRODUCT B', 20),
+    (3, 'PRODUCT C', 35),
+    (4, 'PRODUCT D', 25),
+    (5, 'PRODUCT E', 65);
+
 **•** Database Credentials:
 
 Update the database credentials in the script (host, user, password, and database) based on your MySQL setup:
