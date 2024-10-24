@@ -2,5 +2,6 @@
 <h3>Prerequisties: </h3>
 1. Required Libraries:
     Install the following Python libraries:
-        
-    pip install mysql-connector-python
+    •mysql-connector: To connect and interact with the MySQL database    
+    
+    pip install mysql-connector
