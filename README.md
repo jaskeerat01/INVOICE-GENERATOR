@@ -3,4 +3,4 @@
 1. Required Libraries:
     Install the following Python libraries:
         
-        pip install mysql-connector-python
+    pip install mysql-connector-python
