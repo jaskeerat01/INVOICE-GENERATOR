@@ -1,6 +1,6 @@
 <h1 align="center" >INVOICE GENERATOR</h1>
 
-# Prerequisties: 
+# Prerequisites: 
 **1.** Required Libraries :
 
 Install the following Python libraries :
